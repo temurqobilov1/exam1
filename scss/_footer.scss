@@ -1,0 +1,36 @@
+footer{
+    background: #90D4C6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img{
+        margin-top: 7rem;
+        margin-bottom: 4rem;
+    }
+    ul{
+        display: flex;
+        gap: 5.7rem;
+        margin-bottom: 6rem;
+        li{
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #458D7E;
+            &:hover{
+                color: #ffff;
+            }
+        }
+    }
+    div{
+        display: flex;
+        gap: 2.8rem;
+        margin-bottom: 7rem;
+        img{
+            &:hover{
+            cursor: pointer;
+            background: #fff;
+            border-radius: 50%;
+          }
+        }
+    }
+}
